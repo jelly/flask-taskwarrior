@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'),
+	url(/static/opensans.woff2) format('woff2'),
+	url(/static/opensans.woff) format('woff');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+h1, p {
+  font-family: 'Open Sans', 'Droid Sans', 'DejaVu Sans', sans-serif;
+}
+
+body {
+  background: #e8e8e8;
+}
+
+.task {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 15px;
+}
+
+.task:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.text {
+  padding: 2px 16px;
+}
